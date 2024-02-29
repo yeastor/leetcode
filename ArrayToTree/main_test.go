@@ -52,7 +52,7 @@ func getTestCases() []*TestCase {
 	}
 }
 
-func TestSay(t *testing.T) {
+func TestArrayToTree(t *testing.T) {
 	testCases := getTestCases()
 
 	for _, tc := range testCases {
